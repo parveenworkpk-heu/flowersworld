@@ -1,0 +1,11 @@
+# Windows system files
+nul
+
+# Build artifacts (don't commit build output)
+client/build/
+
+# Environment files (don't commit secrets)
+client/.env
+
+# Node modules (don't commit dependencies)
+**/node_modules/
